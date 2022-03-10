@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 /* import App from './App'; */
-import Counter from "./component/Counter"; // Counter ı aşağıda kullanmam gerekir.
+/* import Counter from "./component/Counter"; // Counter ı aşağıda kullanmam gerekir. */
+/* import Inputt from "./component/InputExample"; */
+import Inputt2 from "./component/InputExample2";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Inputt2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
