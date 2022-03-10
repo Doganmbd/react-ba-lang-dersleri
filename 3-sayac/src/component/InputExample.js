@@ -24,7 +24,7 @@ function InputExample() {
         {/* <input></input> */}
 
         {/* <input value={name} onChange={(event)=> setName(event.target.value)}/> */}
-        {/* burada value verdiğim değer sayfada silinmiyor ve başka değerlerde girilmiyor. bunun sebebi biz bir state tanımladık ve bunun idafe ettiği bir değer var bilal .inputa value olarak bu değeri verdik state imdeki ifade sabit olduğu için ("bilal"). inputa bir veri girildiğinde onchange olduğunda input iççindeki datayı state de yazdırmak lazım .bu yüzden inputtaki onchange değerlidir.bana onchange den dönen event var.bu event dan yola çıkarak değişikliğide setName in içine yazabilirim. */}
+        {/* burada value verdiğim değer sayfada silinmiyor ve başka değerlerde girilmiyor. bunun sebebi biz bir state tanımladık ve bunun ifade ettiği bir değer var "bilal" .inputa value olarak bu değeri verdik state indeksi ifade sabit olduğu için ("bilal"). inputa bir veri girildiğinde onchange olduğunda input içindeki datayı state de yazdırmak lazım .bu yüzden inputtaki onchange değerlidir.bana onchange den dönen event var.bu event dan yola çıkarak değişikliğide setName in içine yazabilirim. */}
         
         <br></br>
         {name}          {/* input içinde yapılan değişikliği görebiliriz. */}
