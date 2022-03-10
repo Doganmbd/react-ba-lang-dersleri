@@ -20,6 +20,11 @@ function Counter() {
         <h1>{count}</h1>
         <button onClick={()=> setCount(count - 1)}>Decrease</button>
         <button onClick={inc}>Increase</button>  {/* burada çok kod yazılabileceği için yukarıda inc tanımladım */}
+        {/* react ın sürekli aynı şeyi render etmedğini görmek istersek bu şekilde jquery ile karşılaştırabilirim.  */}
+         
+        <button onClick={()=> setCount(1)}>make a number one.</button>  {/* burada butona bastiğimda  sadece 1 yapmak için  çalışır ama jquey de her zaman çalışmış olur */}
+
+        {/* bunu görebilmek için incele kısmını açıp soldaki 3 noktaya basıyoruz ve  more tools ve rendering ve paint flashing i seçiyorum.*/}
     </div>
 
     
